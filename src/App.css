@@ -1,0 +1,12 @@
+.App {
+  /* text-align: center; */
+}
+h1{font-size: 45px;margin-left: 140px;}
+.heading-para{margin-left: 140px;margin-bottom: 60px;}
+.activity-items{display: flex;justify-content:space-evenly}
+.images{width: 300px;height: 50vh;object-fit: cover;border-radius: 5px;}
+.gallery-itmes{display: flex;justify-content: space-evenly;}
+.two{display: flex;flex-direction: column;}
+.three{display: flex;flex-direction: column;}
+.four{display: flex;flex-direction: column;}
+.five{display: flex;flex-direction: column;}
