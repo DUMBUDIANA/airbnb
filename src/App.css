@@ -1,8 +1,12 @@
 .App {
   /* text-align: center; */
 }
-h1{font-size: 45px;margin-left: 140px;}
-.heading-para{margin-left: 140px;margin-bottom: 60px;}
+h1{font-size: 45px;margin-left: 140px;                                                                       font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+.heading-para{margin-left: 140px;margin-bottom: 60px;                                                                    font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
 .activity-items{display: flex;justify-content:space-evenly}
 .images{width: 300px;height: 50vh;object-fit: cover;border-radius: 5px;}
 .gallery-itmes{display: flex;justify-content: space-evenly;}
