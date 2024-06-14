@@ -1,7 +1,6 @@
 
 import './App.css';
 import Gallery from './components/Gallery';
-// import { Activities } from './components/Activities';
 import Activities from './components/Activities';
 import{ Navbar } from './components/Nav'
 

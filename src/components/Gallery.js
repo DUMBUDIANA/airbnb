@@ -9,48 +9,6 @@ import image7 from "./images/image7.png";
 import image8 from "./images/image8.png";
 import image23 from "./images/image23.png"
 
-// const imagesList = [
-//     {
-//       id: 1,
-//       src: image1,
-//       alt: "Image1",
-//     },
-    
-//     {
-//       id: 2,
-//       src: image2,
-//       alt: "Image2",
-//     },
-//     {
-//       id: 3,
-//       src: image3,
-//       alt: "Image3",
-//     },
-//     {id: 4,
-//     src: image4,
-//     alt: "Image1",
-//   },
-//   {
-//     id: 5,
-//     src: image5,
-//     alt: "Image2",
-//   },
-//   {
-//     id: 6,
-//     src: image6,
-//     alt: "Image3",
-//   },
-//   {
-//     id: 7,
-//     src: image7,
-//     alt: "Image3",
-//   },
-//   {
-//     id: 8,
-//     src: image8,
-//     alt: "Image3",
-//   },
-//   ];
 
 
   function Gallery() {
