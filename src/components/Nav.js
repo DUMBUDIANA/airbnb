@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
+import bannerim from './images/airbnb1.png';
 
-export const Nav = () => {
+
+
+export const Navbar = () => {
   return (
-    <div>
-        <img/>
+    <div className='nav'>
+        <img src={bannerim} alt='' className='imgnav'/>
+        <div className='line'></div>
     </div>
   )
 }

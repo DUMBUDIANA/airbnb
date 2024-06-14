@@ -118,7 +118,7 @@ function Activities() {
     };
 
     return (
-        <div>
+        <div className='activities-infor'>
             <h1>Online Experiences</h1>
             <p className='heading-para'>
                 Join unique interactive activities led by one-of-a-kind hosts—all without leaving home.
@@ -128,9 +128,9 @@ function Activities() {
                     <div key={activity.id} className='activity-item'>
                         <div className="status">
                             {activity.status === 'available' ? (
-                                <span className="available">Available</span>
+                                <span className="available">ONLINE</span>
                             ) : (
-                                <span className="sold">Sold Out</span>
+                                <span className="sold">SOLDOUT</span>
                             )}
                         </div>
                         <img 
@@ -139,9 +139,10 @@ function Activities() {
                             className='images' 
                             onClick={() => handleReviewClick(activity.id)} 
                         />
-                        <p>{activity.amount}</p>
-                        <p>{activity.rating} (<span className="reviews">{activity.reviews}</span> reviews)</p>
-                        <p>{activity.description}</p>
+                       
+                        <p className='rating-text'>{activity.rating} (<span className="reviews">{activity.reviews}</span>).USA</p>
+                        <p className='descrip'>{activity.description}</p>
+                        <p className='person'><p className='amount'>{activity.amount}</p> <p>/ person</p></p>
                     </div>
                 ))}
             </div>

@@ -1,16 +1,172 @@
-.App {
-  /* text-align: center; */
-}
+
 h1{font-size: 45px;margin-left: 140px;                                                                       font-family: 'Poppins', sans-serif;
   font-family: 'Poppins', sans-serif;
 }
-.heading-para{margin-left: 140px;margin-bottom: 60px;                                                                    font-family: 'Poppins', sans-serif;
+
+.activity-items{display: flex;justify-content:center}
+.images{width: 350px;height: 60vh;object-fit: cover;border-radius: 15px;margin-right: 40px;}
+.gallery-itmes{display: flex;justify-content: center;}
+.two{display: flex;flex-direction: column;}
+.three{display: flex;flex-direction: column;margin-top: 5%;margin-left: 1%;margin-right: 15px;}
+.four{display: flex;flex-direction: column;margin-right: 15px;}
+.five{display: flex;flex-direction: column;margin-top: 30px;}
+.one{margin-top: 11%;margin-right:15px;}
+.images{margin-bottom: 30px;
+ 
+}
+.threeimg1{margin-bottom: 15px;}
+.five-image1{margin-bottom: 15px;}
+.four-img1{margin-bottom: 15px;}
+.one img{height: 250px;}
+.tw0image{height: 190px;}
+img{object-fit: cover;
+
+  width: 189px;
+
+  /* object-fit: contain; */
+  object-fit: contain;
+
+
+}
+.gallery{
+  margin: 100px 0;
+}
+.nav{height: 15vh;
+
+
+    height: 100px;
+    padding: 15px;
+ 
+    box-shadow: 0px 8px 15px -9px rgb(16, 16, 16);
+  
+
+
+}
+.imgnav{object-fit: contain;width: 10%;}
+.line{
+/* width: 100%; */
+    /* margin: auto;
+    height: 2px; 
+    background-color: #fff; */
+    /* box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5); */
+    width: 100%;
+    margin: auto;
+    height: 2px; 
+    /* background-colo; */
+    box-shadow: 60px 40px 400px 2px blue;
+}
+
+/* activities */
+.heading-para{margin-left: 140px;margin-bottom: 60px;  width: 30%;                                                                  font-family: 'Poppins', sans-serif;
   font-family: 'Poppins', sans-serif;
 }
-.activity-items{display: flex;justify-content:space-evenly}
-.images{width: 300px;height: 50vh;object-fit: cover;border-radius: 5px;}
-.gallery-itmes{display: flex;justify-content: space-evenly;}
-.two{display: flex;flex-direction: column;}
-.three{display: flex;flex-direction: column;}
-.four{display: flex;flex-direction: column;}
-.five{display: flex;flex-direction: column;}
+.activities-infor{ font-family: 'Poppins', sans-serif;margin-bottom: 20px;
+                                                
+  
+} 
+                                                
+.activity-item{position: relative;
+
+}
+.status{position: absolute;
+  left: 8%;
+  top: 4%;
+  background: white;
+  height: 5vh;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  font-family: 'Poppins', sans-serif;}
+                                                
+.sold{font-family: 'Poppins', sans-serif;
+}
+.rating-text{display: flex;align-items: center;font-family: 'Poppins', sans-serif;
+}
+.person{display: flex;font-family: 'Poppins', sans-serif;
+}
+.amount{font-weight: bold;font-family: 'Poppins', sans-serif;
+}
+.descrip{font-size: 18px;}
+
+@media (max-width: 575.98px) { 
+  .two{display: none;}
+.three{margin-top: 0;}
+.four{}
+.five{display: none}
+.one{display: none;}
+   img{
+
+      width: 140px;
+    
+  
+      object-fit: contain;
+    
+    
+    }  
+    .activity-items{
+margin-left: 40px;flex-direction: column;
+
+    }
+    .images {
+      width: 220px;
+      height: 30vh;
+      object-fit: cover;
+      /* margin-left: 25px; */
+      margin-right: 20px;
+  }
+  .heading-para {
+ 
+    margin-left:32px;
+    margin-bottom: 60px;
+    width: 50%;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+  .descrip{font-size: 15px;}
+  h1{margin-left: 31px;font-size: 32px;}
+  .gallery{
+    margin: 60px 0;
+  }
+  .nav{
+    height: 10vh;
+  }
+  .heading-para{
+    width: 80%;
+  }
+  
+
+  }
+  
+  @media (min-width: 576px) and (max-width:768px) {
+    img{
+
+      width: 140px;
+    
+  
+      object-fit: contain;
+    
+    
+    }  
+    .activity-items{
+margin-left: 10px;
+    }
+    .images {
+      width: 220px;
+      height: 30vh;
+      object-fit: cover;
+      /* margin-left: 25px; */
+      margin-right: 20px;
+  }
+  .heading-para {
+ 
+    margin-left:32px;
+    margin-bottom: 60px;
+    width: 50%;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+  .descrip{font-size: 15px;}
+  h1{margin-left: 31px;}
+      }

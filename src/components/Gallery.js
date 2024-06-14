@@ -56,23 +56,26 @@ import image23 from "./images/image23.png"
   function Gallery() {
     return (
       <div className='gallery-itmes'>
-        <div className='one'>
+        <div className='one image'>
             <img src={image1} alt='' className=''/>
         </div>
-        <div className='two'>
-            <img src={image2} alt='' className=''/>
+        <div className='two image'>
+          <div>
+          <img src={image2} alt='' className='tw0image'/>
+          </div>
+    
             <img src={image3} alt='' className=''/>
         </div>
-        <div className='three'>
-            <img src={image4} alt='' className=''/>
+        <div className='three image'>
+            <img src={image4} alt='' className='threeimg1'/>
             <img src={image5} alt='' className=''/>
         </div>
-        <div className='four'>
-            <img src={image6} alt='' className=''/>
+        <div className='four image'>
+            <img src={image6} alt='' className='four-img1'/>
             <img src={image23} alt='' className=''/>
         </div>
-        <div className='five'>
-            <img src={image7} alt='' className=''/>
+        <div className='five image'>
+            <img src={image7} alt='' className='five-image1'/>
             <img src={image8} alt='' className=''/>
         </div>
 

@@ -53,7 +53,7 @@ const activityList = [
         rating: "4.5",
         reviews: 20,
         description: "Life lessons with Katie Zaferes",
-        amount: "From $136 / person",
+        amount: "From $136",
         status: "soldOut",
     },
     {
@@ -63,7 +63,7 @@ const activityList = [
         rating: "4.8",
         reviews: 35,
         description: "Cooking with Master Chef",
-        amount: "From $99 / person",
+        amount: "From $99",
         status: "available",
     },
     {
@@ -73,7 +73,7 @@ const activityList = [
         rating: "4.9",
         reviews: 45,
         description: "Yoga and Mindfulness",
-        amount: "From $120 / person",
+        amount: "From $120",
         status: "available",
     },
 ];
