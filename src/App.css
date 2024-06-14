@@ -20,21 +20,12 @@ h1{font-size: 45px;margin-left: 140px;                                          
 .one img{height: 250px;}
 .tw0image{height: 190px;}
 img{object-fit: cover;
-
-  width: 189px;
-
-  /* object-fit: contain; */
-  object-fit: contain;
-
-
+  width: 189px;object-fit: contain;
 }
 .gallery{
   margin: 100px 0;
 }
 .nav{height: 15vh;
-
-
-    height: 100px;
     padding: 15px;
  
     box-shadow: 0px 8px 15px -9px rgb(16, 16, 16);
@@ -43,18 +34,7 @@ img{object-fit: cover;
 
 }
 .imgnav{object-fit: contain;width: 10%;}
-.line{
-/* width: 100%; */
-    /* margin: auto;
-    height: 2px; 
-    background-color: #fff; */
-    /* box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5); */
-    width: 100%;
-    margin: auto;
-    height: 2px; 
-    /* background-colo; */
-    box-shadow: 60px 40px 400px 2px blue;
-}
+
 
 /* activities */
 .heading-para{margin-left: 140px;margin-bottom: 60px;  width: 30%;                                                                  font-family: 'Poppins', sans-serif;
